@@ -2,7 +2,7 @@
 
 <a href="https://github.com/Jordan-Gilliam/ai-template"><img width="300" src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/logo-down-indigo.webp" alt=""></a>
 
-</h1>
+</h1> 
 
 # Mercury
 
