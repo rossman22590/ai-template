@@ -6,7 +6,7 @@
 
 # Mercury 
 
-<i>A Chat GPT Embedding Template</i>
+<i>A Chat GPT Embedding Template</i> 
 
 <h2 align="center">
   <br>
