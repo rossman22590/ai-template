@@ -4,7 +4,7 @@
 
 </h1>
 
-# Mercury
+# Mercury 
 
 <i>A Chat GPT Embedding Template</i>
 
