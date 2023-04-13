@@ -71,7 +71,7 @@ export default function Pinecone() {
                     : "/merc-logo-down-aqua.svg"
                 }
                 variants={imageVariants}
-                animate={{ rotateX: embedding === "TRAIN" ? 0 : 180 }}
+                animate={{ rotateX: embedding === "TRAIN" ? 0 : 0 }}
                 height={175}
                 width={175}
               />
