@@ -57,7 +57,7 @@ export default function Pinecone() {
       <div className="   flex flex-col items-center  gap-3 px-3">
         <div className="z-30 my-6">
           <div className=" flex items-center justify-center md:gap-3">
-            <ToggleHeading text="TRAIN" embedding={embedding} />
+            <ToggleHeading text="Train" embedding={embedding} />
             <button
               className="transition duration-150 hover:scale-105"
               onClick={toggleEmbedding}
@@ -78,7 +78,7 @@ export default function Pinecone() {
             </button>
 
             <div className="flex flex-col items-center justify-center">
-              <ToggleHeading text="QUERY" embedding={embedding} />
+              <ToggleHeading text="Ask" embedding={embedding} />
             </div>
           </div>
         </div>
