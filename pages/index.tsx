@@ -71,14 +71,14 @@ export default function Pinecone() {
                     : "/merc-logo-down-aqua.webp"
                 }
                 variants={imageVariants}
-                animate={{ rotateX: embedding === "TRAIN" ? 0 : 180 }}
+                
                 height={175}
                 width={175}
               />
             </button>
 
             <div className="flex flex-col items-center justify-center">
-              <ToggleHeading text="QUERY" embedding={embedding} />
+              <ToggleHeading text="Ask" embedding={embedding} />
             </div>
           </div>
         </div>
