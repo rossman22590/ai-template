@@ -67,18 +67,18 @@ export default function Pinecone() {
                 alt={embedding}
                 src={
                   embedding === "TRAIN"
-                    ? "/logo-down-indigo.webp"
-                    : "/merc-logo-down-aqua.webp"
+                    ? "/logo-down-indigo.png"
+                    : "/merc-logo-down-aqua.png"
                 }
                 variants={imageVariants}
-                animate={{ rotateX: embedding === "TRAIN" ? 0 : 180 }}
+                animate={{ rotateX: embedding === "TRAIN" ? 0 : 0 }}
                 height={175}
                 width={175}
               />
             </button>
 
             <div className="flex flex-col items-center justify-center">
-              <ToggleHeading text="QUERY" embedding={embedding} />
+              <ToggleHeading text="ASK" embedding={embedding} />
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Pinecone() {
                         cardDetails={{
                           name: "Upload",
                           description:
-                            "Upload your pdf to Pinecone as a vector",
+                            "Upload your pdf to Info Scan",
                         }}
                       >
                         <FileUpload namespace={namespace} />
@@ -142,7 +142,7 @@ export default function Pinecone() {
             ) : (
               <div className=" flex w-full flex-col items-center ">
                 <p className="mb-3 mt-2 max-w-lg text-center text-neutral-800 dark:text-neutral-200 md:text-lg">
-                  Query your newly trained ai. Leverage the embedded knowledge
+                 Chat with your newly trained ai. Leverage the embedded knowledge
                   provided by you.
                 </p>
 
