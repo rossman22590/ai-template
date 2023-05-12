@@ -50,7 +50,7 @@ export function CommandMenu({ ...props }: DialogProps) {
         onClick={() => setOpen(true)}
         {...props}
       >
-        <span className="hidden lg:inline-flex">Create...</span>
+        <span className="hidden lg:inline-flex">Options...</span>
         <span className="inline-flex lg:hidden">Search...</span>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
