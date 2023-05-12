@@ -52,9 +52,6 @@ export function CommandMenu({ ...props }: DialogProps) {
       >
         <span className="hidden lg:inline-flex">Create...</span>
         <span className="inline-flex lg:hidden">Search...</span>
-        <kbd className="pointer-events-none absolute top-2 right-1.5 hidden h-5 select-none items-center gap-1 rounded border border-mauve-8 bg-zinc-100 px-1.5 font-aboreto text-[10px] font-medium text-zinc-600 opacity-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400 sm:flex">
-          <span className="text-xs">⌘</span>K
-        </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
