@@ -55,7 +55,7 @@ body,
     ),
     radial-gradient(
       circle 800px at calc(50% - 600px) calc(100% - 100px),
-      var(--crimson1),
+      var(--violet3),
       var(--violet3),
       transparent
     );
