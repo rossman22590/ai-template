@@ -166,7 +166,7 @@ export function PineconeQuery({ namespace }) {
               handleClick={handleSubmit}
               handleChange={handleChange}
               loading={status === "loading" || status === "streaming"}
-              placeholder="Query Embeddings"
+              placeholder="Ask"
             />
           </motion.div>
         </div>
