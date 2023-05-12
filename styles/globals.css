@@ -43,11 +43,11 @@ body,
     ),
     radial-gradient(
       circle 600px at calc(100% - 300px) 300px,
-      var(--violet3),
+      var(--purple2),
       transparent
     ),
-    radial-gradient(circle 800px at right center, var(--violet1), transparent),
-    radial-gradient(circle 800px at right bottom, var(--violet3), transparent),
+    radial-gradient(circle 800px at right center, var(--purple2), transparent),
+    radial-gradient(circle 800px at right bottom, var(--purple2), transparent),
     radial-gradient(
       circle 800px at calc(50% + 700px) calc(100% + 100px),
       /* var(--mint8), */ #5eead4,
@@ -55,8 +55,8 @@ body,
     ),
     radial-gradient(
       circle 800px at calc(50% - 600px) calc(100% - 100px),
-      var(--violet3),
-      var(--violet3),
+      var(--purple2),
+      var(--purple2),
       transparent
     );
 }
@@ -67,10 +67,10 @@ textarea {
 }
 
 .shadow-box {
-  box-shadow: 0 0 50px -12px rgba(208, 121, 249, 0.3);
+  box-shadow: 0 0 50px -12px rgba(184, 67, 167, 0.683);
 }
 .shadow-box2 {
-  box-shadow: 0 0 50px -12px rgba(121, 247, 249, 0.3);
+  box-shadow: 0 0 50px -12px rgba(255, 49, 183, 0.826);
 }
 
 .input-shadow {
