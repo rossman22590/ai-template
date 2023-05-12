@@ -22,15 +22,15 @@ body,
     ),
     radial-gradient(
       circle 600px at calc(100% - 300px) 300px,
-      var(--mint4),
+      var(--plum3),
       transparent
     ),
-    radial-gradient(circle 800px at right center, var(--sky3), transparent),
-    radial-gradient(circle 800px at right bottom, var(--sky1), transparent),
+    radial-gradient(circle 800px at right center, var(--plum3), transparent),
+    radial-gradient(circle 800px at right bottom, var(--plum3), transparent),
     radial-gradient(
       circle 800px at calc(50% - 600px) calc(100% - 100px),
-      var(--indigo2),
-      var(--pink2),
+      var(--plum3),
+      var(--plum3),
       transparent
     );
 }
