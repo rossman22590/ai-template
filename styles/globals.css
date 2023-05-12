@@ -63,7 +63,7 @@ body,
 
 input,
 textarea {
-  @apply caret-teal-400;
+  caret-color:rgba(248, 57, 181, 0.826);
 }
 
 .shadow-box {
