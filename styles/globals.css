@@ -43,7 +43,7 @@ body,
     ),
     radial-gradient(
       circle 600px at calc(100% - 300px) 300px,
-      var(--mint1),
+      var(--violet3),
       transparent
     ),
     radial-gradient(circle 800px at right center, var(--violet1), transparent),
