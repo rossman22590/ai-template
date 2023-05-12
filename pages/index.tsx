@@ -42,7 +42,7 @@ export default function Pinecone() {
   }, [])
 
   function toggleEmbedding() {
-    setEmbedding(embedding === "TRAIN" ? "QUERY" : "TRAIN")
+    setEmbedding(embedding === "TRAIN" ? "ASK" : "TRAIN")
     setAnimateOnce(false)
   }
 
