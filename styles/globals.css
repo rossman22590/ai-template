@@ -17,20 +17,20 @@ body,
 .fancy-bg1 {
   background-image: radial-gradient(
       circle 800px at 700px 200px,
-      var(--plum3),
+      var(--purple2),
       transparent
     ),
     radial-gradient(
       circle 600px at calc(100% - 300px) 300px,
-      var(--plum3),
+      var(--purple2),
       transparent
     ),
-    radial-gradient(circle 800px at right center, var(--plum3), transparent),
-    radial-gradient(circle 800px at right bottom, var(--plum3), transparent),
+    radial-gradient(circle 800px at right center, var(--indigo2), transparent),
+    radial-gradient(circle 800px at right bottom, var(--indigo2), transparent),
     radial-gradient(
       circle 800px at calc(50% - 600px) calc(100% - 100px),
-      var(--plum3),
-      var(--plum3),
+      var(--indigo2),
+      var(--indigo2),
       transparent
     );
 }
