@@ -22,7 +22,7 @@ export const Card = ({
       onMouseLeave={() => setHighlight(false)}
       className={cn(
         "flex min-h-[350px] w-full flex-col items-center rounded-3xl pt-7 md:w-full",
-        "bg-transparent ring-inset ring-indigo-400/25 backdrop-blur dark:border-teal-500/50 dark:bg-neutral-800/30 ",
+        "bg-transparent ring-inset ring-indigo-400/25 backdrop-blur dark:border-pink-400/50 dark:bg-neutral-800/30 ",
         {
           "border border-neutral-900/50 shadow-lg transition duration-150 dark:border-neutral-500/30 ":
             !highlight,
