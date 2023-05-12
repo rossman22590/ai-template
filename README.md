@@ -19,7 +19,7 @@
 
 
 ## Chat with any Document or Website 
-> Train your own custom GPT
+> Train your own custom GPT 
 
 - Train on specific websites that you define
 - Train on documents you upload
