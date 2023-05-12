@@ -154,7 +154,7 @@ export default function Pinecone() {
           <div className="absolute inset-0 -z-10 overflow-hidden ">
             <BackgroundGridPattern />
           </div>
-         
+         <BackgroundColorBlur />
         </div>
       </div>
     </PageLayout>
