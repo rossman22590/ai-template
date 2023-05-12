@@ -47,7 +47,7 @@ body,
       transparent
     ),
     radial-gradient(circle 800px at right center, var(--violet1), transparent),
-    radial-gradient(circle 800px at right bottom, var(--teal4), transparent),
+    radial-gradient(circle 800px at right bottom, var(--violet3), transparent),
     radial-gradient(
       circle 800px at calc(50% + 700px) calc(100% + 100px),
       /* var(--mint8), */ #5eead4,
